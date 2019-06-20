@@ -99,7 +99,7 @@
         <div class="row" style="margin-top:-45px; margin-bottom:-80px">
             <div class="card">
                 <div class="card-header">
-                    <h2 class="card-title" style="margin-top:-5px; margin-bottom:-5px">SemClose</h2>
+                    <h2 class="card-title" style="margin-top:-5pt; margin-bottom:-5pt;font-size: 22px;">SemClose</h2>
                 </div>
                 <div class="card-block p-3">
                     <ul class="list-unstyled">
@@ -157,16 +157,13 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <p class="card-text lead text-muted">
+                                <p class="card-text lead" style="color:black;font-family:times;font-size: 15px;text-align: justify;">
                                     Objectives: The main objectives of SemClose are threefold: (1) First, SemClose aims at building a code-to-code search engine for super code repositories such as GitHub. This engine leverages code snippets in Q&A sites. (2) Second, SemClose investigates the results of the code search engine to better understand semantic code clones across different software projects. This may shed light on the current practice of software development, which benefits from code clones. (3) Third, SemClose focuses on providing a collection of semantic clones to developers per functionality.
-                                	</p>
-                                <p class="card-text lead text-muted"> 
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                 Our key insight to statically find semantic code clones in a scalable way is first to undertake a description of the functionality implemented by any code fragment. Then, such descriptions can be used to match other code fragments that could be described similarly. We propose SemClose (Find a Code other than Yours) as a novel, static, scalable and effective system for finding semantic code clones in large code bases.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     Novelty of approach w.r.t semantic clone search: the current state-of-the-art of semantic clone search relies on (1) static structure or (2) dynamic execution traces. The former techniques are inaccurate if clones have completely different syntactic structures. The latter approaches are fairly accurate but not scalable to the real development context. SemClose overcomes these limitations by leveraging information collected from Q&A sites and achieves high scalability and accuracy.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     Expected Outcomes: SemClose is expected to yield several outcomes in terms of publications and tools for the research communities. We expect to publish at least 2 research papers at top conferences venues (e.g., ICSE, FSE, ASE, etc.) and 1 article at a top journal. We plan to publicly release a benchmark of semantic clones and a tool for semantic code clone search that will serve as baseline for comparing other approaches.
                                 </p>
                                 <!-- <div class="text-center">
@@ -178,7 +175,7 @@
                 </div>
                 
                 <div class="card-header">
-                    <h2 class="card-title" style="margin-top:-5px; margin-bottom:-5px">RECOMMEND</h2>
+                    <h2 class="card-title" style="margin-top:-5pt; margin-bottom:-5pt;font-size: 22px;">RECOMMEND</h2>
                 </div>
                 <div class="card-block p-3">
                     <ul class="list-unstyled">
@@ -236,20 +233,16 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <p class="card-text lead text-muted">
-                                    Summary:
+                                <p class="card-text lead" style="color:black;font-family:times;font-size: 15px;text-align: justify;">
+                                Summary:
                                 Software is now pervasive in our lives but bug-free software remains a myth. Actually, constraints on resources, including time, manpower and testing environment, often lead project developers to release software that still contain many bugs. Users will then run into issues that they will report to the development teams. At industry level, the volume of reports collected can often be beyond the capabilities of developers to triage, assign and fix them.
-                                	</p>
-                                <p class="card-text lead text-muted"> 
+                                	<br/>&nbsp;&nbsp;&nbsp;&nbsp; 
                                 For example, in 2006, Mozilla developers were receiving about 300 bug reports every day. A volume that Mozilla developers admitted they could not handle by themselves. Even when the bug is assigned to a developer, he must ensure that he understand the cause of the bug and how it can be effectively fixed. In such a context, without an automated tool for systematically analyzing these bug reports and providing fix tips, most bugs will not be quickly dealt with, increasing the time-to-fix delays. Some bugs, tagged as minor, may even go unnoticed.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     There is today a momentum of automatic program repair, a research field where various approaches are devised to automatically fix programs once a fault is detected. Such approaches attempt to patch a program in a way that makes it pass all the tests. So far, there are no reports of adoption of these approaches in the industry. Indeed, currently, automatic program repair is a young and immature research field, and it has a number of caveats including the fact that: (1) only a limited set of fault types are considered, (2) the proposed fixes can be perceived as alien code and may be out of tune with the rest of the code and (3) there is no guarantee that this fix should be maintained or that it definitely fixes the bug.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     The industry standard remains to thoroughly review bug reports and manually write corresponding fixes. Developers thus require new approaches and tools to help them readily understand bug report and infer the appropriate fix so as to (1) reduce the time-to-fix delay and (2) produce homogeneous code that is easy to maintain.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     The RECOMMEND project aims at designing and building a bug fix recommendation system for software development projects. The system will be independent from any programming language. We will leverage information retrieval techniques and machine learning techniques to identify, from the history of a project or of similar projects, examples of fixes which can be proposed to address a newly submitted bug report.
                                 </p>
                                 <div class="text-center">
@@ -261,7 +254,7 @@
                 </div>
                 
                 <div class="card-header">
-                    <h2 class="card-title" style="margin-top:-5px; margin-bottom:-5px">FIXPATTERN</h2>
+                    <h2 class="card-title" style="margin-top:-5pt; margin-bottom:-5pt;font-size: 22px;">FIXPATTERN</h2>
                 </div>
                 <div class="card-block p-3">
                     <ul class="list-unstyled">
@@ -319,17 +312,14 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <p class="card-text lead text-muted">
+                                <p class="card-text lead" style="color:black;font-family:times;font-size: 15px;text-align: justify;">
                                     Summary:
                                 Patch generation is one of the important tasks in software maintenance. However, it is the least explored area while a large number of research work have been conducted for other debugging activities such as fault localization and prioritization . In practice, debugging cannot be completed without patch generation even if a fault is accurately localized or efficiently prioritized.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     In addition, patch generation is recognized as an essential task in software development since most contemporary software systems inevitably contain bugs that need to be fixed. As the size and complexity of software systems get larger and higher, significantly more number of bugs are found and reported. Naturally, the corresponding cost for resolving the bugs is rapidly increasing.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     To minimize time and cost spent fixing bugs, an automated program repair technique must be devised. Even if this approach may fix a certain portion of bugs, it can largely mitigate burden for debugging so that developer can focus on more creative activities. In addition, the quality of software can be improved as the number of bugs is reduced. This strongly motivates the project, FIXPATTERN, an automated technique for patch generation.
-                                </p>
-                                <p class="card-text lead text-muted">
+                                <br/>&nbsp;&nbsp;&nbsp;&nbsp;
                                     The FIXPATTERN project aims at presenting new approaches to automated program repair. First, the project devises a novel pattern-based repair technique learned from human-written patches. This technique can outperform existing techniques based on random mutation with respect to patch quality and readability. Second, this project proposes an semantic-based approach to fix pattern mining for supporting the pattern-based repair technique. Third, a bug classification method is presented by this project. The method is essential since the efficiency of the repair technique can be improved if it can figure out the type of a given bug upfront. Fourth, this project provides the result of a large empirical study on open source projects. One of the main reasons that only few practitioners adopted existing automated repair techniques is that only few evaluation results in practice are available. Thus, it is necessary to provide empirical results studied on a large set of real bugs in practice.
                                 </p>
                                 <div class="text-center">
