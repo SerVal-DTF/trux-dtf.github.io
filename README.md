@@ -1,2 +1,2 @@
 # SerVal - Debugging Task Force Team Page
-See https://servaldtf.github.io
+See https://serval-dtf.github.io
